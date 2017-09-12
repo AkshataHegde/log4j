@@ -1,0 +1,9 @@
+2017-09-12 17:23:42 DEBUG Log4j:18 - This is debug : mkyong
+2017-09-12 17:23:42 INFO  Log4j:22 - This is info : mkyong
+2017-09-12 17:23:42 WARN  Log4j:25 - This is warn : mkyong
+2017-09-12 17:23:42 ERROR Log4j:26 - This is error : mkyong
+2017-09-12 17:23:42 FATAL Log4j:27 - This is fatal : mkyong
+2017-09-12 17:43:48 ERROR Log4j2:16 - Sorry, something wrong!
+java.lang.ArithmeticException: / by zero
+	at com.akshu.log4jexmpl.Log4j2.divide(Log4j2.java:24)
+	at com.akshu.log4jexmpl.Log4j2.main(Log4j2.java:14)
